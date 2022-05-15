@@ -1,0 +1,55 @@
+@import '../../App.css';
+
+.heroes-filters {
+
+
+    
+
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+.filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-top: 100px;
+    border: none;
+    background: rgba(172, 221, 204, 0.72);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 189.52%;
+    letter-spacing: 0.195em;
+    cursor: pointer;
+    transition: 0.5s ease, color 0.5s linear;
+
+    color: #000000;
+
+    &:hover {
+        background: #D4E5AF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+        transform: translateY(-10px);
+        
+    }
+
+
+}
+
+.active {
+    background: #D4E5AF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    // transform: translateY(-10px);
+    
+}
+
