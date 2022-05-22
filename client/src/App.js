@@ -20,11 +20,6 @@ function App() {
     </main >
 
 
-
-
-
-
-
   );
 }
 
